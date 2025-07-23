@@ -4,18 +4,14 @@ while True:
     b=float(input("Enter 2nd number: "))
     k=input("Enter + - * / as per your needs")
     if k== '+' :
-        sum=a+b
-        print("The sum of two numbers is: ",sum)
+        result= a+b    
     elif k=='-':
-        sub=a-b
-        print ("The difference of two numbers is: ",sub)
+        result= a-b     
     elif k=='*':
-        prod=a*b
-        print("The product of two numbers is: ",prod)
+        result= a*b
     elif k=='/':
-        div=a/b
-        print("The remainder of two numbers is: ",div)
-
+        result= a/b
+    print("The Calculated Ammount is",result)
 
 
             
